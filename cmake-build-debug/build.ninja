@@ -61,6 +61,12 @@ build CMakeFiles/graph_2.dir/cpp/readMatrix/readMatrix.cpp.obj: CXX_COMPILER__gr
   OBJECT_DIR = CMakeFiles\graph_2.dir
   OBJECT_FILE_DIR = CMakeFiles\graph_2.dir\cpp\readMatrix
 
+build CMakeFiles/graph_2.dir/cpp/findIsolatedTops/findIsolatedTops.cpp.obj: CXX_COMPILER__graph_2_Debug C$:/Users/Iluha/Documents/github_repos/graph-2/cpp/findIsolatedTops/findIsolatedTops.cpp || cmake_object_order_depends_target_graph_2
+  DEP_FILE = CMakeFiles\graph_2.dir\cpp\findIsolatedTops\findIsolatedTops.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\graph_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph_2.dir\cpp\findIsolatedTops
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target graph_2
@@ -69,7 +75,7 @@ build CMakeFiles/graph_2.dir/cpp/readMatrix/readMatrix.cpp.obj: CXX_COMPILER__gr
 #############################################
 # Link the executable graph_2.exe
 
-build graph_2.exe: CXX_EXECUTABLE_LINKER__graph_2_Debug CMakeFiles/graph_2.dir/main.cpp.obj CMakeFiles/graph_2.dir/cpp/readMatrix/readMatrix.cpp.obj
+build graph_2.exe: CXX_EXECUTABLE_LINKER__graph_2_Debug CMakeFiles/graph_2.dir/main.cpp.obj CMakeFiles/graph_2.dir/cpp/readMatrix/readMatrix.cpp.obj CMakeFiles/graph_2.dir/cpp/findIsolatedTops/findIsolatedTops.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\graph_2.dir

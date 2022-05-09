@@ -1,3 +1,9 @@
 # ninja log v5
-4	783	6734508183147054	CMakeFiles/graph_2.dir/main.cpp.obj	b7cd507e314a47f7
-785	1181	6734508187058127	graph_2.exe	39670386cd501e09
+3	445	6737828520279646	CMakeFiles/graph_2.dir/cpp/isIsolated/isIsolated.cpp.obj	189b8df99fb27d13
+3	465	6737828626566505	CMakeFiles/graph_2.dir/main.cpp.obj	b7cd507e314a47f7
+466	776	6737828629547185	graph_2.exe	c6824ebca0bcef60
+36	571	6737818839852327	CMakeFiles/graph_2.dir/cpp/readMatrix/readMatrix.cpp.obj	b7504af1fb46e703
+2	310	6737829913319502	build.ninja	edaec30a1989ceb8
+13	448	6737829918270619	CMakeFiles/graph_2.dir/cpp/findIsolatedTops/findIsolatedTops.cpp.obj	5e7c6d57d0dd3f27
+3	450	6737829918290628	CMakeFiles/graph_2.dir/main.cpp.obj	b7cd507e314a47f7
+451	735	6737829921051338	graph_2.exe	6a19f2b38ebb60a0
